@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-// import companyName from './img/image1.png'
 import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -12,35 +11,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-        {/* <div className='container'>
-          <div className='header__block'>
-            <p className='company-name'>aperture</p>
-            <div >
-              <ul className='header__nav'>
-                <li className='nav_list'><a>Business areas</a></li>
-                <li className='nav_list'><a>Featured images</a></li>
-                <li className='nav_list'><a>Gear cage</a></li>
-                <li className='nav_list'><a>Contact</a></li>
-                <li className='nav_list'><a>Get template</a></li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
       </header>
       <section className='aperture'>
-        {/* <img src={companyName} alt="aperture" /> */}
         <div className='container aperture_img'>
           <div className='aperture__block'> 
             <p className='aperture__item second-color'>Photographer & Filmmaker</p>

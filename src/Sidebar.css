@@ -1,13 +1,10 @@
 .sidebar {
-  /* border: 1px solid white; */
-  /* width: 330px; */
   border-right: 1px dotted;
   padding-top: 15px;
   height: 600px;
 }
 
 aside {
-  /* background: #d49898; */
   width: 330px;
   height: 100%;
   float: left;
