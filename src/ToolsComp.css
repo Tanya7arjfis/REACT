@@ -1,0 +1,52 @@
+.tools {
+  display: flex;
+} 
+
+.tools_right {
+  background: url('./img/image3.png') no-repeat 50% 50%;
+  height: 540px;
+  width: 50%;
+}
+
+.tools_left {
+  width: 50%;
+  background-color: black;
+  padding: 83px 60px;
+}
+
+.tools_block {
+  max-width: 600px;
+  padding: 60px 40px;
+}
+
+.tools_item {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.tools_title {
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.tools_text {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  color: black;
+  background: white;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-weight: 600;
+  border: 1px solid #C0C0C0;
+  box-shadow: 2px 2px 8px #d4d47d;
+}

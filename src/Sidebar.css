@@ -1,0 +1,33 @@
+.sidebar {
+  /* border: 1px solid white; */
+  /* width: 330px; */
+  border-right: 1px dotted;
+  padding-top: 15px;
+  height: 600px;
+}
+
+aside {
+  /* background: #d49898; */
+  width: 330px;
+  height: 100%;
+  float: left;
+}
+
+.sidebar__title {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.sidebar__text {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.sidebar_item {
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}

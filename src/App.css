@@ -1,4 +1,139 @@
-.App {
+body, h1, h2, h3, h4, p,
+ul[class],
+ol[class],
+li, button, input, form
+ {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: #181818;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  font-weight: 600;
+}
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  /* max-width: 1612px; */
+  max-width: 1440px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.second-color {
+  color: #C0C0C0;
+}
+
+/* .company-name {
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 120px;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  column-gap: 50px;
+} */
+
+.aperture {
+  background: url("./img/image1.png") no-repeat center/100% ;
+  height: 716px;
+  position: relative;
+}
+
+.aperture::after {
+  content: "";
+  display: block;    
+	width: 100%;
+	height: 30%; 
+  bottom: 0;   
+	position: absolute;
+  /* background: transparent; */
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom, #fff 0%, #000000 10%);
+  /* z-index: 1; */
+  filter: blur(40px);
+}
+
+.aperture__block {
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+  transform: translate(65%, 0%);
+  z-index: 1;
+}
+
+.aperture_img {
+  /* position: relative; */
+}
+
+.aperture__item {
+ text-transform: uppercase;
+ margin-bottom: 2px;
+}
+
+.aperture__title {
+ font-size: 54px;
+ font-weight: 400;
+ margin-bottom: 18px;
+}
+
+.aperture__text {
+  font-size: 14px;
+}
+
+.main-contant {
+  display: flex;
+  padding-top: 40px;
+}
+
+
+
+/* .sidebar {
+  border: 1px solid white;
+}
+
+aside {
+  background: #d49898;
+  width: 330px;
+  height: 100%;
+  float: left;
+} */
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +170,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
